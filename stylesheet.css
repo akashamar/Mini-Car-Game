@@ -1,0 +1,99 @@
+*{ margin: 0; padding: 0;}
+
+.hide{
+    display: none;
+} 
+
+.carGame{
+    width: 100%;
+    height: 100vh;
+    background-image: url('sand.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.car {
+    width: 50px;
+    height: 85px;
+    background:none;
+    position: absolute;
+    right: 350px;
+    bottom: 120px;
+    background-image: url(car3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.enemy{
+    width: 50px;
+    height: 85px;
+    background:none;
+    position: absolute;
+    right: 350px;
+    bottom: 120px;
+    background-image: url(car4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    background: #2d3436;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-right: 7px dashed #c8d6e5;
+    border-left: 7px dashed #c8d6e5;
+}
+
+.lines{
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+}
+
+.score{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background: #10ac84;
+    width: 250px;
+    line-height: 35px;
+    text-align: center;
+    color: lightcoral;
+    font-size: 1.5em;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+    border-radius: 5px;
+    font-family: 'Grandstander', cursive;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+.startScreen{
+    position: absolute;
+    background: linear-gradient(to top right, #ff0066 0%, #3399ff 100%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: navajowhite;
+    z-index: 1;
+    text-align: center;
+    border: 1px solid #ff6b6b;
+    border-radius: 20px;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    font-family: 'Poller One', cursive;
+    /* font-family: 'Ranchers', cursive; */
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px #777;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
